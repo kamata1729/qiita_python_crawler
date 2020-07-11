@@ -4,7 +4,7 @@ import datetime
 import time
 import os
 
-BLOCK_IDS = ['r-wakatsuki', 'shiracamus', 'PYTHONISTA', 'DaikiSuyama']
+BLOCK_IDS = [] # 掲載しないユーザーのID
 
 def lambda_handler(event, content):
     token = os.environ['QIITA_API_KEY']
